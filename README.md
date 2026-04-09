@@ -1,6 +1,6 @@
 # Docker Sandbox Templates
 
-Enhanced [Docker Sandbox](https://docs.docker.com/ai/sandboxes/) templates built on top of official `docker/sandbox-templates` images.
+Enhanced [Docker Desktop Sandbox](https://docs.docker.com/ai/sandboxes/docker-desktop/) templates built on top of official `docker/sandbox-templates` images.
 
 The base images already include common language runtimes (Python, Node.js, etc.) and development tools. These templates add on top of that:
 
@@ -8,6 +8,12 @@ The base images already include common language runtimes (Python, Node.js, etc.)
 - **VS Code CLI** for tunnel-based IDE access
 - **Extra tools**: bat, autojump, vim, git-delta
 - **python** aliased to python3
+
+
+> [!NOTE]
+> Docker released an independent tool `sbx` on April 2, 2026. It is not tested yet if the templates in this repo are compatible with `sbx`.
+> It's recommended to use the former `docker sandbox` command (part of the Docker Desktop) to work with the templates.
+
 
 ---
 
