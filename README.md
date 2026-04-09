@@ -66,6 +66,11 @@ Now you can edit files in the sandbox container directly from VS Code on your ma
     docker sandbox save <sandbox-name> <new-template-image>
     ```
 
+---
+## Known issues in Docker Desktop Sandbox
+
+1. Sanbox VMs fail to list or start after updating Docker Desktop (as of April 2026). The workaround is to stop all sandbox VMs before updating, and start them again after the update. If the Docker Desktop is updated when sandbox VMs are running, you can restart your laptop to fix the issue.
+
 
 # License
 Apache License 2.0
